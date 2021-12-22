@@ -7,7 +7,9 @@ This guide is validated with MRS version 3.1.0-LTS and anaconda3 (Anaconda3-2020
 4. Integrate with Spark2x
 
 ### Install MRS Client
+
 Most of the details are described in [Link](https://docs.prod-cloud-ocb.orange-business.com/usermanual/mrs/admin_guide_000171.html)
+
 ![image](https://user-images.githubusercontent.com/11695917/147064871-4c1bfe47-4ee0-41a0-91fc-83617e27fca5.png)
 
 ### Install Anaconda
