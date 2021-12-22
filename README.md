@@ -18,6 +18,8 @@ Most of the details are described in [Link](https://docs.prod-cloud-ocb.orange-b
 
 It is recommanded to install the VM which runs notebook in the same VPC of the MRS cluster. In this way MRS Manager can easily transfer MRS client to the target VM.
 
+![image](https://user-images.githubusercontent.com/11695917/147158095-a1ba26e0-35f2-4507-9978-51cfa95b44f6.png)
+
 ### Install Anaconda
 
 You can use wget to download a choosen version of anaconda for the VM. For example:
