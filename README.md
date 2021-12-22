@@ -55,6 +55,7 @@ vi /root/.jupyter/jupyter_notebook_config.py to modify the ip to the host ip:
 ![image](https://user-images.githubusercontent.com/11695917/147119752-661b368c-0729-49c5-a920-2972e2852db8.png)
 
 Change port if already in use:
+
 ![image](https://user-images.githubusercontent.com/11695917/147119800-ecc2e156-476c-4e9d-9691-c9bec5ea2ff7.png)
 
 Save the file
