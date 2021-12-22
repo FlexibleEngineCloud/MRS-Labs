@@ -20,6 +20,9 @@ It is recommanded to install the VM which runs notebook in the same VPC of the M
 
 ![image](https://user-images.githubusercontent.com/11695917/147158095-a1ba26e0-35f2-4507-9978-51cfa95b44f6.png)
 
+![image](https://user-images.githubusercontent.com/11695917/147158292-0d1a0b68-31e7-48ad-920f-c8a6e8308153.png)
+
+
 ### Install Anaconda
 
 You can use wget to download a choosen version of anaconda for the VM. For example:
