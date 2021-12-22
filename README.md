@@ -22,6 +22,29 @@ It is recommanded to install the VM which runs notebook in the same VPC of the M
 
 ![image](https://user-images.githubusercontent.com/11695917/147158292-0d1a0b68-31e7-48ad-920f-c8a6e8308153.png)
 
+When the client is copied to the target VM, you need to configure NTP server on this VM then configure this MRS client.
+
+For installing and configuring NTP:
+
+```
+sudo yum install ntp -y
+```
+Change /etc/ntp.conf with your master nodes ip
+
+![image](https://user-images.githubusercontent.com/11695917/147161684-74393ab9-861e-4cc1-a973-8d2b9f27ac5d.png)
+
+
+```
+service ntpd stop
+ntpdate 192.168.1.151 # change to your own master ip
+service ntpd start 
+```
+
+For configuring the MRS client:
+```
+./install.sh /opt/mrsclient
+```
+
 
 ### Install Anaconda
 
